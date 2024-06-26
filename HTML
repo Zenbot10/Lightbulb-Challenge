@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<body>
+
+    <script>
+        function turnOnOff() {
+            let image = document.getElementById('Image');
+            if (image.src.match("ONbulb"))
+                image.src =
+"https://pngimg.com/d/bulb_PNG1241.png";
+            else
+                image.src =
+"https://media.geeksforgeeks.org/wp-content/uploads/ONbulb.jpg";
+        }
+    </script>
+ 
+    <img id="Image" onclick="turnOnOff()" src=
+"https://pngimg.com/d/bulb_PNG1241.png">
+ 
+<p style="font-family: Fantasy
+">CLICK ON and OFF </p>
